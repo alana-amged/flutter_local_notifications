@@ -22,7 +22,7 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    namespace 'com.dexterous.flutterlocalnotifications'
+    
     compileSdkVersion 33
     compileOptions {
         coreLibraryDesugaringEnabled true
@@ -36,9 +36,7 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
-    lintOptions {
-        disable 'InvalidPackage'
-    }
+ 
 }
 
 dependencies {
