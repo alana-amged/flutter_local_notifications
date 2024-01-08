@@ -1,6 +1,6 @@
 group 'com.dexterous.flutterlocalnotifications'
 version '1.0-SNAPSHOT'
- ext.kotlin_version = '1.6.0'
+ 
 buildscript {
     repositories {
         google()
@@ -23,11 +23,7 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 33
-    compileOptions {
-        coreLibraryDesugaringEnabled true
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
-    }
+   
 
     defaultConfig {
         multiDexEnabled true
